@@ -24,9 +24,9 @@ def VOC2Json(xml_dir, output_filename):
     xml_files.sort()
     
     attrDict = {}
-    attrDict["categories"]=[{"supercategory":"none","id":1,"name":"date"},
-                            {"supercategory":"none","id":2,"name":"price"},
-                            {"supercategory":"none","id":3,"name":"company"}
+    attrDict["categories"]=[{"supercategory":"none","id":0,"name":"date"},
+                            {"supercategory":"none","id":1,"name":"price"},
+                            {"supercategory":"none","id":2,"name":"company"}
                            ]
     
     
